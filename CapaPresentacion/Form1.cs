@@ -41,6 +41,7 @@ namespace CapaPresentacion
                 //esto es otra prueba
                 try
                 {
+                    //como vamos
                     objetoCN.InsertarPRod(txtNombre.Text, txtDesc.Text, txtMarca.Text, txtPrecio.Text, txtStock.Text);
                     MessageBox.Show("se inserto correctamente");
                     MostrarProdctos();
